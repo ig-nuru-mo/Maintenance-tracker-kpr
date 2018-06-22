@@ -1,0 +1,133 @@
+body{
+	background-image: url("bkgr.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+#si{
+	font-size: 20;
+	width: 100px;
+	height: 30px;
+}
+
+#su{
+	font-size: 20;
+	width: 100px;
+	height: 30px;
+}
+
+#Li{
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	font-size: 15;
+	width: 100px;
+	height: 30px;
+}
+#heading{
+	font-size: 50;
+}
+.singer {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.buttons{
+	text-align: center;
+}
+/* Modal Content/Box */
+.modal-content {
+	text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 40%; /* centered */
+    border: 1px solid #000;
+    width: 20%; /* Could be more or less, depending on screen size */
+	height: 60%;
+	border-radius: 20px;
+}
+
+/* The Close Button */
+.close1 {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close1:hover,
+.close1:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.close2 {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close2:hover,
+.close2:focus {
+    color: red;
+    cursor: pointer;
+}
+.avatar {
+	width: 220px;
+	height: 70px;
+}
+.hoser{
+	text-align: right;
+	padding-right: 20px;
+}
+.sinup{
+	text-align: center;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
