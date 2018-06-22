@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>MTA</title>
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	
+		<body >
+		 
+		<div class= "singer"><br><br>
+		<h1> Maintenance Tracker </h1> 
+		
+		<button onclick="document.getElementById('id01').style.display='block'" id= "si"> Sign in </button><br><br>
+		<button onclick="document.getElementById('id02').style.display='block'" id= "su"> Sign up </button><br><br>
+		</div>
+
+	<!-- Sign in -->
+	
+		<div id = "id01" class="modal1">
+		  <span onclick="document.getElementById('id01').style.display='none'" 
+		class="close1" title="Close Modal">&times;</span>
+
+		<!-- Modal Content -->
+		  
+		  <form class="modal-content" >
+		  
+			<div class="imgcontainer">
+			  <br><br><br><img src="Logo.png" alt="Avatar" class="avatar"><br><br><br>
+			</div>
+			
+			<div class="container">
+		  <label for="uname"><b>Username</b></label>
+		  <input type="text" placeholder="" name="uname" required><br><br>
+		  
+				  <label for="psw"><b>Password</b></label>
+			  <input type="password" placeholder="" name="psw" required><br><br>
+			  <label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me <br><br>
+			  </label>
+					<div><a href="#"><button>Login</button></a></div> <br><br>
+			  <span class="psw"> <a href="#"> Forgot password? </a></span>
+			</div>
+			
+		  </form>
+		  
+		</div>
+		
+	<!-- Sign up -->
+	
+		<div id = "id02" class="modal2">
+		  <span onclick="document.getElementById('id02').style.display='none'" 
+		class="close2" title="Close Modal">&times;</span>
+		
+		<!-- Modal Content -->
+			  
+		  <form class="modal-content" action="">
+			<div class="imgcontainer">
+			  <br><img src="Logo.png" alt="Avatar" class="avatar"><br><br>
+			</div>
+			
+			<div class="hoser">
+				<label for="name"><b> Name </b></label>
+				<input type="text" placeholder="" name="uname" required><br><br>
+				<label for="name"><b> Email address </b></label>
+				<input type="text" placeholder="" name="uname" required><br><br>
+				<label for="uname"><b> Username </b></label>
+				<input type="text" placeholder="" name="uname" required><br><br>
+				<div class = "buttons">
+					<input type="radio" name="permission" value="all"> Admin
+					<input type="radio" name="permission" value="ltd"> User <br><br>
+				</div>	
+				<label for="psw"><b>Create password</b></label>
+				<input type="password" placeholder="" name="psw" required><br><br>
+				<label for="psw"><b>Repeat password</b></label>
+				<input type="password" placeholder="" name="psw" required><br><br>
+			</div>
+				<div class="sinup">
+				  <button type="submit">Signup</button><br>
+				</div>
+		  </form>
+		</div>
+	</body>
+</html>
